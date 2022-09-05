@@ -1,0 +1,139 @@
+html {
+    ---offset: 80px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    width: 100%;
+}
+.form {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    max-width: 1024px;
+    margin: auto;
+    border-radius: 20px;
+    
+}
+.image {
+    background-image: url("form-images/mountains-1.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 45%;
+    height: 900px;
+    margin: left;
+}
+.form-general {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 calc(0px-var(---offset)/2);
+    width: 55%;
+    padding: 40px;
+}
+.form-action {
+    
+    
+}
+form:last-child {
+    border-bottom: 1px solid rgb(201, 202, 201);
+    padding: 10px 0 15px 0;
+}
+.title {
+    font-size: 22px;
+    font-weight: 600;
+    color: rgba(8,145,178);
+}
+.form-head {
+    display: flex;
+    flex-wrap: wrap;
+}
+.form_head {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+    
+    flex-grow: 1;
+}
+.text-form {
+    font-size: 14px;
+    font-weight: 500;
+    color: #404040;
+}
+input[type=text]:hover {
+    border: 2px solid rgba(8,145,178);
+    color: #404040;
+}
+.forms {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid rgb(201, 202, 201);
+    border-radius: 8px;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.subtitle {
+    padding-top: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color:#404040;
+}
+select {
+    padding: 10px;
+    border: 1px solid rgb(201, 202, 201);
+    border-radius: 8px;
+    margin-top: 5px;
+}
+.subtitle-text {
+    padding: 5px 0 20px 0;
+    color: #737373;
+    font-weight: 200;
+    font-size: 14px;
+}
+.checkbox-form {
+    display: flex;
+    align-items: baseline;
+}
+input[type=checkbox] {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #737373;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+input[type=checkbox]:checked {
+    background-color: #0284c7;
+    background-image: url(icon-check.png);
+    background-position: center;
+    background-size: contain;
+}
+.text-checkbox {
+    font-size: 14px;
+    font-weight: 700;
+    color: #404040;
+}
+
+.btn-check {
+    width: 100%;
+    background-color: #0ea5e9;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 500ms linear;
+    
+}
+.btn-check:hover {
+    background-color: #0284c7;
+}
